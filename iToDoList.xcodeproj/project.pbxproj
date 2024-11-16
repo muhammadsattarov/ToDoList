@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		CE4101D62C7B46AA006AEFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101D52C7B46AA006AEFDD /* AppDelegate.swift */; };
 		CE4101D82C7B46AA006AEFDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101D72C7B46AA006AEFDD /* SceneDelegate.swift */; };
-		CE4101DA2C7B46AA006AEFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101D92C7B46AA006AEFDD /* ViewController.swift */; };
-		CE4101DD2C7B46AA006AEFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4101DB2C7B46AA006AEFDD /* Main.storyboard */; };
+		CE4101DA2C7B46AA006AEFDD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101D92C7B46AA006AEFDD /* HomeViewController.swift */; };
 		CE4101DF2C7B46AD006AEFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4101DE2C7B46AD006AEFDD /* Assets.xcassets */; };
 		CE4101E22C7B46AD006AEFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4101E02C7B46AD006AEFDD /* LaunchScreen.storyboard */; };
+		CE4101ED2C7B8270006AEFDD /* HomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101EC2C7B8270006AEFDD /* HomeBottomView.swift */; };
+		CE4101F02C7B8815006AEFDD /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101EF2C7B8815006AEFDD /* HomeTableViewCell.swift */; };
+		CE4101F52C7B9023006AEFDD /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101F42C7B9023006AEFDD /* AddNoteViewController.swift */; };
+		CE4101F82C7B9BFF006AEFDD /* Note.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE4101F62C7B9BFF006AEFDD /* Note.xcdatamodeld */; };
+		CE4101FB2C7B9C65006AEFDD /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101F92C7B9C65006AEFDD /* Note+CoreDataClass.swift */; };
+		CE4101FC2C7B9C65006AEFDD /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101FA2C7B9C65006AEFDD /* Note+CoreDataProperties.swift */; };
+		CE4101FF2C7C9F2E006AEFDD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4101FE2C7C9F2E006AEFDD /* CoreDataManager.swift */; };
+		CE4102022C7CA46D006AEFDD /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4102012C7CA46D006AEFDD /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE4101D22C7B46AA006AEFDD /* iToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4101D52C7B46AA006AEFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4101D72C7B46AA006AEFDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE4101D92C7B46AA006AEFDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE4101DC2C7B46AA006AEFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE4101D92C7B46AA006AEFDD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE4101DE2C7B46AD006AEFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4101E12C7B46AD006AEFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4101E32C7B46AD006AEFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4101EC2C7B8270006AEFDD /* HomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomView.swift; sourceTree = "<group>"; };
+		CE4101EF2C7B8815006AEFDD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		CE4101F42C7B9023006AEFDD /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		CE4101F72C7B9BFF006AEFDD /* Note.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Note.xcdatamodel; sourceTree = "<group>"; };
+		CE4101F92C7B9C65006AEFDD /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE4101FA2C7B9C65006AEFDD /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE4101FE2C7C9F2E006AEFDD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		CE4102012C7CA46D006AEFDD /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,78 @@
 		CE4101D42C7B46AA006AEFDD /* iToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				CE4101D52C7B46AA006AEFDD /* AppDelegate.swift */,
-				CE4101D72C7B46AA006AEFDD /* SceneDelegate.swift */,
-				CE4101D92C7B46AA006AEFDD /* ViewController.swift */,
-				CE4101DB2C7B46AA006AEFDD /* Main.storyboard */,
+				CE4102002C7CA462006AEFDD /* Extension */,
+				CE4101FD2C7C9F20006AEFDD /* Manager */,
+				CE4101F12C7B8AD8006AEFDD /* Model */,
+				CE4101EB2C7B8257006AEFDD /* Views */,
+				CE4101E92C7B8245006AEFDD /* Application */,
+				CE4101EA2C7B8250006AEFDD /* Controllers */,
 				CE4101DE2C7B46AD006AEFDD /* Assets.xcassets */,
 				CE4101E02C7B46AD006AEFDD /* LaunchScreen.storyboard */,
 				CE4101E32C7B46AD006AEFDD /* Info.plist */,
 			);
 			path = iToDoList;
+			sourceTree = "<group>";
+		};
+		CE4101E92C7B8245006AEFDD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CE4101D52C7B46AA006AEFDD /* AppDelegate.swift */,
+				CE4101D72C7B46AA006AEFDD /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CE4101EA2C7B8250006AEFDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE4101D92C7B46AA006AEFDD /* HomeViewController.swift */,
+				CE4101F42C7B9023006AEFDD /* AddNoteViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE4101EB2C7B8257006AEFDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE4101EE2C7B8809006AEFDD /* Cells */,
+				CE4101EC2C7B8270006AEFDD /* HomeBottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE4101EE2C7B8809006AEFDD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE4101EF2C7B8815006AEFDD /* HomeTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE4101F12C7B8AD8006AEFDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE4101F62C7B9BFF006AEFDD /* Note.xcdatamodeld */,
+				CE4101F92C7B9C65006AEFDD /* Note+CoreDataClass.swift */,
+				CE4101FA2C7B9C65006AEFDD /* Note+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE4101FD2C7C9F20006AEFDD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE4101FE2C7C9F2E006AEFDD /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CE4102002C7CA462006AEFDD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE4102012C7CA46D006AEFDD /* Date+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +204,6 @@
 			files = (
 				CE4101E22C7B46AD006AEFDD /* LaunchScreen.storyboard in Resources */,
 				CE4101DF2C7B46AD006AEFDD /* Assets.xcassets in Resources */,
-				CE4101DD2C7B46AA006AEFDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +214,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4101DA2C7B46AA006AEFDD /* ViewController.swift in Sources */,
+				CE4101ED2C7B8270006AEFDD /* HomeBottomView.swift in Sources */,
+				CE4102022C7CA46D006AEFDD /* Date+Extension.swift in Sources */,
+				CE4101F02C7B8815006AEFDD /* HomeTableViewCell.swift in Sources */,
+				CE4101DA2C7B46AA006AEFDD /* HomeViewController.swift in Sources */,
 				CE4101D62C7B46AA006AEFDD /* AppDelegate.swift in Sources */,
 				CE4101D82C7B46AA006AEFDD /* SceneDelegate.swift in Sources */,
+				CE4101FB2C7B9C65006AEFDD /* Note+CoreDataClass.swift in Sources */,
+				CE4101F52C7B9023006AEFDD /* AddNoteViewController.swift in Sources */,
+				CE4101F82C7B9BFF006AEFDD /* Note.xcdatamodeld in Sources */,
+				CE4101FF2C7C9F2E006AEFDD /* CoreDataManager.swift in Sources */,
+				CE4101FC2C7B9C65006AEFDD /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE4101DB2C7B46AA006AEFDD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE4101DC2C7B46AA006AEFDD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE4101E02C7B46AD006AEFDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +373,6 @@
 				INFOPLIST_FILE = iToDoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +400,6 @@
 				INFOPLIST_FILE = iToDoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +437,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE4101F62C7B9BFF006AEFDD /* Note.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE4101F72C7B9BFF006AEFDD /* Note.xcdatamodel */,
+			);
+			currentVersion = CE4101F72C7B9BFF006AEFDD /* Note.xcdatamodel */;
+			path = Note.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE4101CA2C7B46AA006AEFDD /* Project object */;
 }
